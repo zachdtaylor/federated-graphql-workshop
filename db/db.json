@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "asmith",
+      "email": "asmith@example.com",
+      "firstName": "Ann",
+      "lastName": "Smith"
+    },
+    {
+      "id": 2,
+      "username": "mbrown",
+      "email": "mbrown@example.com",
+      "firstName": "Mike",
+      "lastName": "Brown"
+    },
+    {
+      "id": 3,
+      "username": "jdoe",
+      "email": "jdoe@example.com",
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 4,
+      "username": "jscott",
+      "email": "jscott@example.com",
+      "firstName": "Jane",
+      "lastName": "Scott"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Go to the beach",
+      "date": "July 24, 2020",
+      "time": "10:00AM",
+      "owner": 3
+    },
+    {
+      "id": 2,
+      "title": "Dinner with friend",
+      "date": "September 30, 2020",
+      "time": "7:00PM",
+      "owner": 1
+    },
+    {
+      "id": 3,
+      "title": "Date with Jack",
+      "date": "October 9, 2020",
+      "time": "8:00PM",
+      "owner": 1
+    },
+    {
+      "id": 4,
+      "title": "GraphQL Conference",
+      "date": "December 1, 2020",
+      "time": "9:00AM",
+      "owner": 2
+    },
+    {
+      "id": 5,
+      "title": "Lunch with Sister",
+      "date": "October 1, 2020",
+      "time": "12:00PM",
+      "owner": 4
+    },
+    {
+      "id": 6,
+      "title": "Yoga Class",
+      "date": "October 17, 2020",
+      "time": "8:00AM",
+      "owner": 4
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+type Query {
+  user(username: String!): User
+  users: [User]!
+  event(id: ID!): Event
+  events: [Event]!
+}
+
+type User {
+  id: ID!
+  username: String!
+  email: String!
+  firstName: String!
+  lastName: String!
+  events: [Event]!
+}
+
+type Event {
+  id: ID!
+  title: String!
+  date: String!
+  time: String!
+  owner: User!
+}
